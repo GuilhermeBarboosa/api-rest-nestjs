@@ -8,7 +8,7 @@ import { Usuarios } from 'src/model/usuarios.model';
 
 @Injectable()
 export class UsuariosService {
-  private usuarios = [];
+  private usuarios: Usuarios[] = [];
 
   public criar(usuario: Usuarios){
    this.usuarios.push(usuario);
